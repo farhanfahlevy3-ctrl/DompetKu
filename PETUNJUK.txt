@@ -1,0 +1,19 @@
+DOMPETKU — PENCATAT KEUANGAN ANDROID
+
+Isi:
+- index.html: aplikasi utama
+- manifest.json dan sw.js: dukungan instalasi/offline PWA
+
+CARA MEMAKAI DI ANDROID:
+1. Ekstrak ZIP ini.
+2. Agar bisa dipasang sebagai aplikasi PWA, file harus di-host melalui HTTPS (misalnya GitHub Pages atau layanan hosting statis).
+3. Buka URL index.html/halaman situs di Chrome Android.
+4. Pilih menu Chrome (⋮) > "Tambahkan ke layar utama" atau "Install app" jika tersedia.
+5. Setelah terpasang, buka DompetKu dari layar utama.
+
+CATATAN PENTING:
+- Ini adalah aplikasi web progresif (PWA), bukan APK native. PWA dapat tampil seperti aplikasi Android dan menyimpan data lokal pada browser/perangkat.
+- Data transaksi tersimpan di localStorage browser. Jangan hapus data situs/browser tanpa membuat cadangan JSON.
+- Ekspor CSV dapat dibuka di Google Sheets/Excel.
+- Tidak ada sinkronisasi cloud atau perlindungan akun. Gunakan kunci layar perangkat dan buat cadangan berkala.
+- Untuk uji coba cepat, buka index.html di browser; beberapa fitur offline/instalasi hanya aktif setelah di-host lewat HTTPS atau localhost.
