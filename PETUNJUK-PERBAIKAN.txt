@@ -1,0 +1,31 @@
+PERBAIKAN PWA DOMPETKU
+
+Isi ZIP:
+- manifest.json (pengganti file lama)
+- sw.js (pengganti file lama)
+- icon-192.png (file baru)
+- icon-512.png (file baru)
+
+CARA MEMASANG DI GITHUB:
+1. Ekstrak ZIP ini di HP.
+2. Buka repository GitHub: farhanfahlevy3-ctrl/DompetKu
+3. Pastikan berada di tab Code dan folder utama (root).
+4. Pilih Add file > Upload files.
+5. Upload keempat file dari ZIP ini. Jika hanya bisa satu per satu,
+   lakukan upload dan Commit changes untuk setiap file.
+6. Jika GitHub menanyakan apakah file lama akan diganti, pilih Commit changes
+   untuk mengganti manifest.json dan sw.js yang lama.
+7. Pastikan icon-192.png dan icon-512.png muncul sejajar dengan index.html,
+   manifest.json, dan sw.js (jangan dimasukkan ke folder lain).
+8. Tunggu GitHub Pages selesai menerbitkan perubahan.
+
+PENTING:
+- Jangan hapus atau mengganti index.html yang sudah ada.
+- Jangan hapus data browser atau penyimpanan situs DompetKu.
+- Sebelum mencoba instalasi lagi, buka situs DompetKu di Chrome, pastikan online,
+  lalu muat ulang halaman.
+- Jika Chrome masih memakai versi lama, tutup tab DompetKu, buka lagi, dan
+  tunggu beberapa saat agar Service Worker baru aktif.
+- Instalasi PWA tetap bergantung pada pemeriksaan Chrome dan versi browser.
+  Jika masih gagal, periksa melalui Chrome DevTools > Application > Manifest
+  pada komputer atau kirim screenshot pesan/halaman yang muncul.
